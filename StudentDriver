@@ -1,0 +1,9 @@
+////////////////////////////////////////////////////
+//We'll use this to create STUDENT objects
+public class StudentDriver {
+    public static void main(String[] args) {
+     new Student("Benjamin", 99.9);
+     //these values are defined and pre-set by the constructor with the Student.java file
+        //creates a new object Student        
+    }  //END: main
+}//END Class: Student Driver
