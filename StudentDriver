@@ -4,14 +4,18 @@ public class StudentDriver {
     public static void main(String[] args) {
      Student account1 = new Student("Benjamin", 99.9);
      Student account2 = new Student("Mukuwa", 99.9); //creates, initalizes object
-     Student account3 = new Student("Timothy", 99.9);   
+     Student account3 = new Student("Timothy", 99.9);
+     Student account4 = new Student("Ned", 67.7);
+     Student account5 = new Student("Ted", 85.5);
         //these values are defined and pre-set by the constructor with the Student.java file
         //creates a new object Student
         System.out.printf("%s's letter grade is: %s%n", account1.getName(), account1.getLetterGrade());
         System.out.printf("%s's letter grade is: %s%n", account2.getName(), account2.getLetterGrade());
         System.out.printf("%s's letter grade is: %s%n", account3.getName(), account3.getLetterGrade());
+        System.out.printf("%s's letter grade is: %s%n", account4.getName(), account4.getLetterGrade());
+        System.out.printf("%s's letter grade is: %s%n", account5.getName(), account5.getLetterGrade());
         //souf TAB: Shortcut
-        
-        
+
+
     }  //END: main
 }//END Class: Student Driver
