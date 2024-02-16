@@ -1,12 +1,13 @@
 public class Student {
+   //Instance variables
     private String name;
     private double average;
 
     //Constructor
     public Student(String name, double average){//creates student object
         //will run when you create a new student object
-//constructor, has the same name as the class
-//double is a data type, one of the eight, twice the size of a float
+        //constructor, has the same name as the class
+        //double is a data type, one of the eight, twice the size of a float
         this.name = name; //set instance variable
 
 
@@ -18,11 +19,11 @@ public class Student {
             }
         }
     }//END Constructor : Student
-/////////////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////////////
     public void setName(String name) {
         this.name = name;
     }
-////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////
     public String getName() {
         return name;
         //no void because its actually returning a value
@@ -42,6 +43,8 @@ public class Student {
     public double getAverage() {
         return average;
     }
+
+    //this converts the average to a letter grade.
 public String getLetterGrade(){ //letterGrade is a string, not an object
         String letterGrade = ""; //null, so it can be set by the if statements
 
@@ -52,7 +55,7 @@ public String getLetterGrade(){ //letterGrade is a string, not an object
     else if(average>= 80.0){
         letterGrade = "B";
     }
-    if (average >= 70) {
+    else if(average >= 70) {
         letterGrade = "C";
     }
     else if(average>= 60.0){
